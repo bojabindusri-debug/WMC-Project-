@@ -1,0 +1,68 @@
+\documentclass{standalone}
+\usepackage{pgfplots}
+\usepackage{lmodern}
+\pgfplotsset{compat=1.17}
+
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[
+    width=20cm,
+    height=15cm,
+    tick label style={font=\fontsize{24}{28}\selectfont},
+    label style={font=\fontsize{24}{28}\selectfont},
+    title style={font=\fontsize{24}{28}\selectfont},
+    title={Communication Overhead vs Number of Nodes},
+    xlabel={Number of Nodes},
+    ylabel={Overhead},
+    xmin=50, xmax=200,
+    ymin=30, ymax=100,
+    xtick={50,75,100,125,150,175,200},
+    ytick={30,40,50,60,70,80,90,100},
+    legend columns=2,
+    legend style={
+        font=\fontsize{22}{26}\selectfont,
+        at={(0.5,0.98)},
+        anchor=north,
+        draw=black,
+        fill=white
+    },
+    ymajorgrids=true,
+    xmajorgrids=true,
+    grid style=dashed
+]
+
+% CL-QoS (Proposed)
+\addplot+[mark=o,color=blue,line width=2pt] coordinates {
+    (50,26)(75,33)(100,53)(125,50)(150,50)(175,70)(200,75)
+};
+
+% IRIS
+\addplot+[mark=square*,color=red,line width=2pt] coordinates {
+    (50,30)(75,38)(100,58)(125,55)(150,55)(175,75)(200,80)
+};
+
+% Multi-path
+\addplot+[mark=triangle*,color=green,line width=2pt] coordinates {
+    (50,32)(75,40)(100,60)(125,57)(150,58)(175,78)(200,83)
+};
+
+% CL-HHO
+\addplot+[mark=diamond*,color=orange,line width=2pt] coordinates {
+    (50,35)(75,45)(100,65)(125,60)(150,62)(175,82)(200,88)
+};
+
+% PLQE
+\addplot+[mark=*,color=black,line width=2pt] coordinates {
+    (50,31)(75,39)(100,59)(125,56)(150,57)(175,77)(200,82)
+};
+
+% AODV
+\addplot+[mark=star,color=violet,line width=2pt] coordinates {
+    (50,38)(75,48)(100,70)(125,65)(150,68)(175,90)(200,95)
+};
+
+\legend{CL-QoS(Proposed), IRIS, Multi-path, CL-HHO, PLQE, AODV}
+
+\end{axis}
+\end{tikzpicture}
+\end{document}

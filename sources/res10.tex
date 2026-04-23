@@ -1,0 +1,20 @@
+\documentclass{standalone}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}
+
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[
+width=14cm,height=10cm,
+title={Energy Consumption vs Packets},
+xlabel={Packets},
+ylabel={Energy},
+grid=major]
+
+\addplot+[smooth,mark=*,thick] coordinates {
+(50,12.46)(100,14.19)(150,17.01)(200,18.77)
+};
+
+\end{axis}
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,22 @@
+\documentclass{standalone}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}
+
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[
+width=14cm,height=10cm, 
+title={Packet Delivery Ratio vs Packets Sent},
+xlabel={Packets},
+ylabel={PDR (\%)},
+title={Packet Delivery Ratio vs Packets},
+grid=major]
+
+\addplot+[smooth,mark=*,thick] coordinates {
+(50,50)(100,47)(150,22)(200,31.6)
+};
+
+\end{axis}
+\end{tikzpicture}
+
+\end{document}

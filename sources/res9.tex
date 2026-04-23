@@ -1,0 +1,20 @@
+\documentclass{standalone}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}
+
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[
+width=14cm,height=10cm,
+title={Throughput vs Packets Sent},
+xlabel={Packets},
+ylabel={Throughput (Kbps)},
+grid=major]
+
+\addplot+[smooth,mark=*,thick] coordinates {
+(50,1.02)(100,8)(150,6.75)(200,12.69)
+};
+
+\end{axis}
+\end{tikzpicture}
+\end{document}

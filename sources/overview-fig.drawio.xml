@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="j2nGA2w7HdyJgpvPkXzm">
+    <mxGraphModel dx="1585" dy="917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Network Initialization&lt;br&gt;&lt;/font&gt;&lt;/b&gt;Sensor node deployment&lt;br&gt;Energy initialization&lt;br&gt;Neighbor discovery" vertex="1">
+          <mxGeometry height="80" width="180" x="160" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Cross Layer Data Acquisition&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Residual energy&lt;br&gt;Link quality&lt;br&gt;Delay&lt;br&gt;Traffic load" vertex="1">
+          <mxGeometry height="90" width="180" x="160" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="4" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;QoS Evaluation&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Packet delivery ratio&lt;/div&gt;&lt;div&gt;Delay&lt;/div&gt;&lt;div&gt;Throughput&lt;/div&gt;&lt;div&gt;Jitter&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="170" x="160" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Decision Support System&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Multi-metric cost evaluation&lt;br&gt;Node ranking&lt;br&gt;Next hop selection" vertex="1">
+          <mxGeometry height="100" width="170" x="160" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;Adaptive Routing&lt;/b&gt;&lt;br&gt;Path selection&lt;br&gt;Multi-hop routing&lt;br&gt;Dynamic path update" vertex="1">
+          <mxGeometry height="90" width="170" x="480" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Load Balancing&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Traffic distribution&lt;br&gt;Energy optimization" vertex="1">
+          <mxGeometry height="90" width="170" x="490" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Data Transmission&lt;/b&gt;&lt;/font&gt;&lt;br&gt;Multi-hop forwarding&lt;br&gt;Reliable delivery" vertex="1">
+          <mxGeometry height="95" width="160" x="490" y="422.5" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Performance Evaluation&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Packet Delivery Ratio&lt;br&gt;Delay&lt;br&gt;Throughput&lt;br&gt;Energy" vertex="1">
+          <mxGeometry height="100" width="160" x="500" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="200" as="sourcePoint" />
+            <mxPoint x="240" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="250" y="360" as="sourcePoint" />
+            <mxPoint x="250" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="564.37" y="205" as="sourcePoint" />
+            <mxPoint x="564.37" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="564.38" y="360" as="sourcePoint" />
+            <mxPoint x="564.38" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="569.38" y="517.5" as="sourcePoint" />
+            <mxPoint x="569.38" y="577.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" edge="1" parent="1" source="6" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="630" />
+            </Array>
+            <mxPoint x="340" y="640" as="sourcePoint" />
+            <mxPoint x="400" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="630" as="sourcePoint" />
+            <mxPoint x="400" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="160" as="sourcePoint" />
+            <mxPoint x="470" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
